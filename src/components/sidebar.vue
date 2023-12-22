@@ -12,6 +12,9 @@
     <router-link to="/Product" class="list-group-item">
       <span class="productIcon icon"> </span>商品管理
     </router-link>
+    <router-link to="/Sort" class="list-group-item">
+      <span class="sort icon"> </span>分類管理
+    </router-link>
     <router-link to="/Order" class="list-group-item list-group-item-action">
       <span class="orderIcon icon"> </span>訂單管理
     </router-link>
@@ -62,6 +65,9 @@
 }
 .list-groupSet .productIcon {
   background-image: url("../assets/img/icon/icon-park-outline_ad-product.svg");
+}
+.list-groupSet .sort {
+  background-image: url("../assets/img/icon/sort.svg");
 }
 .list-groupSet .orderIcon {
   background-image: url("../assets/img/icon/lets-icons_order.svg");

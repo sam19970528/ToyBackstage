@@ -51,13 +51,13 @@
   width: 75px;
   height: 35px;
   color: #fff;
-  background-color: var(--button-color3);
+  background-color: var(--button-color1);
 }
 .deletBtn {
   width: 75px;
   height: 35px;
   color: #fff;
-  background-color: var(--button-color1);
+  background-color: var(--button-color3);
 }
 .circle {
   position: absolute;

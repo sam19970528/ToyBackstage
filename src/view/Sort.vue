@@ -3,26 +3,23 @@
     <table class="table content">
       <thead class="">
         <tr class="text-center">
-          <th scope="col">用戶名稱</th>
-          <th scope="col">性別</th>
-          <th scope="col">狀態</th>
+          <th scope="col">分類名稱</th>
+          <th scope="col">商品名稱</th>
           <th scope="col">操作</th>
         </tr>
       </thead>
       <tbody>
         <tr class="text-center">
-          <th scope="row">Tom</th>
-          <td>男</td>
-          <td class="postionCircle"><span class="circle"></span>上線中</td>
+          <th scope="row">模型車</th>
+          <td>閃電霹靂車/機車模型/汽車/超跑</td>
           <td>
             <button type="button" class="btn editBtn">編輯</button>
             <button type="button" class="btn deletBtn">刪除</button>
           </td>
         </tr>
         <tr class="text-center">
-          <th scope="row">Davie</th>
-          <td>男</td>
-          <td class="postionCircle"><span class="circle"></span>上線中</td>
+          <th scope="row">鋼彈模型</th>
+          <td>PG/RG/HG</td>
           <td>
             <button type="button" class="btn editBtn">編輯</button>
             <button type="button" class="btn deletBtn">刪除</button>

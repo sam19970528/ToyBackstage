@@ -46,6 +46,14 @@ const routes = [
           title: "會員管理",
         },
       },
+      {
+        path: "Sort",
+        name: "Sort",
+        component: () => import("@/view/Sort.vue"),
+        meta: {
+          title: "分類管理",
+        },
+      },
     ],
   },
   {

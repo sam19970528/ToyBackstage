@@ -11,7 +11,6 @@
             <th scope="col">用戶姓名</th>
             <th scope="col">訂單狀態</th>
             <th scope="col">支付方式</th>
-            <th scope="col">操作</th>
           </tr>
         </thead>
         <tbody>
@@ -23,10 +22,6 @@
             <td>Tom</td>
             <td>已下單</td>
             <td>LINEPAY</td>
-            <td>
-              <button type="button" class="btn editBtn mx-2">編輯</button>
-              <button type="button" class="btn deletBtn">刪除</button>
-            </td>
           </tr>
           <tr class="text-center">
             <th scope="row">2</th>
@@ -36,10 +31,6 @@
             <td>SAM</td>
             <td>已下單</td>
             <td>LINEPAY</td>
-            <td>
-              <button type="button" class="btn editBtn mx-2">編輯</button>
-              <button type="button" class="btn deletBtn">刪除</button>
-            </td>
           </tr>
         </tbody>
       </table>
@@ -65,12 +56,12 @@ import pagination from "@/components/pagination.vue";
   width: 75px;
   height: 35px;
   color: #fff;
-  background-color: var(--button-color3);
+  background-color: var(--button-color1);
 }
 .deletBtn {
   width: 75px;
   height: 35px;
   color: #fff;
-  background-color: var(--button-color1);
+  background-color: var(--button-color3);
 }
 </style>
