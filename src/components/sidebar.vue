@@ -39,25 +39,25 @@
   margin-left: 185px;
   margin-top: 40px;
   text-align: center;
-}
-.list-groupSet a {
-  position: relative;
-  padding: 30px;
-  background-color: var(--navbar-color1);
-  font-weight: bold;
-  color: #fff;
-  border-bottom: 1px solid #fff;
-}
-.list-groupSet a:hover {
-  background-color: #7f96cf;
-}
-.icon {
-  position: absolute;
-  top: 30px;
-  left: 65px;
-  width: 20px;
-  height: 22px;
-  background-size: cover;
+  a {
+    position: relative;
+    padding: 30px;
+    background-color: var(--navbar-color1);
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    &:hover {
+      background-color: #7f96cf;
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 30px;
+    left: 65px;
+    width: 20px;
+    height: 22px;
+    background-size: cover;
+  }
 }
 
 .list-groupSet .Center {

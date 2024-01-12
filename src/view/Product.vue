@@ -65,20 +65,36 @@ import pagination from "@/components/pagination.vue";
   width: 1140px;
   height: 200px;
   border-radius: 10px;
-}
-.editBtn {
-  width: 75px;
-  height: 35px;
-  color: #fff;
-  background-color: var(--button-color1);
-}
-.deletBtn {
-  width: 75px;
-  height: 35px;
-  color: #fff;
-  background-color: var(--button-color3);
-}
-.footer {
-  margin-top: 250px;
+  .editBtn {
+    width: 75px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--button-color1);
+    &:hover {
+      background-color: var(--button-color4);
+    }
+    &:active {
+      background-color: var(--button-color2);
+      color: #000;
+    }
+  }
+  .deletBtn {
+    width: 75px;
+    height: 35px;
+    color: #fff;
+    background-color: var(--button-color3);
+    font-weight: bold;
+    &:hover {
+      background-color: var(--button-color4);
+    }
+    &:active {
+      background-color: var(--button-color2);
+      color: #000;
+    }
+  }
+  .footer {
+    margin-top: 250px;
+  }
 }
 </style>

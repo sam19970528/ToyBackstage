@@ -52,16 +52,4 @@ import pagination from "@/components/pagination.vue";
   height: 450px;
   border-radius: 10px;
 }
-.editBtn {
-  width: 75px;
-  height: 35px;
-  color: #fff;
-  background-color: var(--button-color1);
-}
-.deletBtn {
-  width: 75px;
-  height: 35px;
-  color: #fff;
-  background-color: var(--button-color3);
-}
 </style>

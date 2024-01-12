@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
+    redirect: "/Center",
     path: "/",
     name: "Layout",
     component: () => import("@/view/Layout.vue"),

@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="box1">
-      <heade>
-        <navbar />
-      </heade>
+      <navbar />
       <main>
         <div class="d-flex">
           <sidebar />

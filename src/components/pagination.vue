@@ -1,4 +1,3 @@
-<!-- Layout.vue -->
 <template>
   <div class="pages">
     <div class="m-auto">
@@ -30,23 +29,23 @@
   width: 350px;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.pages li {
-  margin-top: 10px;
-  list-style-type: none;
-  padding-left: 18px;
-}
-.pages a {
-  text-decoration: none;
-  color: #6e6e6e;
-  font-weight: bold;
-}
-.pages a:active {
-  border-radius: 10px;
-  padding: 8px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  background-color: var(--button-color1);
+  li {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 18px;
+  }
+  a {
+    text-decoration: none;
+    color: #6e6e6e;
+    font-weight: bold;
+    &:hover {
+      border-radius: 10px;
+      padding: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      background-color: var(--button-color1);
+    }
+  }
 }
 </style>

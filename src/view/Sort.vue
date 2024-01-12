@@ -11,7 +11,7 @@
       <tbody>
         <tr class="text-center">
           <th scope="row">模型車</th>
-          <td>閃電霹靂車/機車模型/汽車/超跑</td>
+          <td class="">閃電霹靂車/機車模型/汽車/超跑</td>
           <td>
             <button type="button" class="btn editBtn">編輯</button>
             <button type="button" class="btn deletBtn">刪除</button>
@@ -39,32 +39,20 @@
   width: 1140px;
   height: 200px;
   border-radius: 10px;
-}
-.editBtn {
-  margin-right: 10px;
-  width: 75px;
-  height: 35px;
-  color: #fff;
-  background-color: var(--button-color1);
-}
-.deletBtn {
-  width: 75px;
-  height: 35px;
-  color: #fff;
-  background-color: var(--button-color3);
-}
-.circle {
-  position: absolute;
-  left: 60px;
-  top: 25%;
-  transform: translateY(-50%);
-  background-color: rgb(101, 231, 145);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-.postionCircle {
-  position: relative;
+  .editBtn {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 75px;
+    height: 35px;
+    color: #fff;
+    background-color: var(--button-color1);
+  }
+  .deletBtn {
+    margin-top: 10px;
+    width: 75px;
+    height: 35px;
+    color: #fff;
+    background-color: var(--button-color3);
+  }
 }
 </style>
