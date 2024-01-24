@@ -23,7 +23,7 @@
 <style scoped>
 .pages {
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 195px;
   border-radius: 60px;
   height: 40px;
   width: 350px;

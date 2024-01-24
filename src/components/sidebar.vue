@@ -7,10 +7,10 @@
       class="list-group-item list-group-item-action"
       aria-current="true"
     >
-      <span class="Center icon"> </span>後台首頁
+      <span class="Center icon"></span>後台首頁
     </router-link>
     <router-link to="/Product" class="list-group-item">
-      <span class="productIcon icon"> </span>商品管理
+      <span class="productIcon icon"></span>商品管理
     </router-link>
     <router-link to="/Sort" class="list-group-item">
       <span class="sort icon"> </span>分類管理
@@ -36,7 +36,6 @@
 .list-groupSet {
   width: 260px;
   height: 590px;
-  margin-left: 185px;
   margin-top: 40px;
   text-align: center;
   a {

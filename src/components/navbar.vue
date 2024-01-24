@@ -17,18 +17,26 @@ defineProps({
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .navbar {
   height: 100px;
   margin: 0 auto;
-  width: 1450px;
+  width: 1300px;
   margin-top: 30px;
   background-color: var(--navbar-color1);
   img {
     cursor: pointer;
     margin-left: 60px;
-    &:hover {
-      border-bottom: 3px solid var(--bg-color1);
+    &::after {
+      content: "";
+      display: block;
+      width: 0%;
+      height: 5px;
+      background-color: #fff;
+    }
+    &:hover::after {
+      width: 100%;
+      transition: 0.3s;
     }
   }
   input {
@@ -41,6 +49,8 @@ defineProps({
   }
   .searchBtn {
     position: relative;
+    top: 0px;
+    right: 130px;
     width: 120px;
     height: 45px;
     border-radius: 10px;
@@ -63,8 +73,7 @@ defineProps({
     }
   }
   .logOutBtn {
-    margin-right: 40px;
-    margin-left: 450px;
+    margin-right: 20px;
     position: relative;
     width: 120px;
     height: 40px;
