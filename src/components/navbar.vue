@@ -9,8 +9,8 @@ defineProps({
     <router-link to="/Center">
       <img src="../assets/img/logo.svg" alt="" />
     </router-link>
-    <input type="text" />
-    <button type="button" class="btn searchBtn">搜尋</button>
+    <!-- <input type="text" /> -->
+    <!-- <button type="button" class="btn searchBtn">搜尋</button> -->
     <router-link to="/Login">
       <button type="button" class="btn logOutBtn">登出</button>
     </router-link>
@@ -73,7 +73,7 @@ defineProps({
     }
   }
   .logOutBtn {
-    margin-right: 20px;
+    margin-right: 50px;
     position: relative;
     width: 120px;
     height: 40px;
