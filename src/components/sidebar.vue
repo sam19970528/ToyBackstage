@@ -34,9 +34,9 @@
 @import "../src/assets/scss/all.scss";
 
 .list-groupSet {
-  width: 260px;
+  width: 280px;
   height: 590px;
-  margin-top: 40px;
+  margin-top: 70px;
   text-align: center;
   a {
     position: relative;

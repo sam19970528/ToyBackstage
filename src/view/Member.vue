@@ -138,7 +138,7 @@ export default {
       memberList: [
         {
           memberName: "Tom",
-          emali: "cindy55288@gmail.com",
+          emali: "tom123@yahoo.com.tw",
           gender: "男",
           state: "上線中",
         },

@@ -28,7 +28,7 @@ import sidebar from "@/components/sidebar.vue";
 <style scoped lang="scss">
 .box1 {
   padding: 5px;
-  height: 860px;
+  height: 1065px;
   background-color: var(--bg-color1);
 }
 </style>

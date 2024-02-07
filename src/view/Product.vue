@@ -15,7 +15,7 @@
         <tr class="text-center" v-for="(item, key) in productList" :key="key">
           <th scope="row">{{ item.title }}</th>
           <td>
-            <img :src="imgSrl" class="imgclass" />
+            <img :src="imgUrl" class="imgclass" />
           </td>
           <td>{{ item.type }}</td>
           <td>{{ item.price }}</td>
@@ -223,7 +223,7 @@ export default {
 
   data() {
     return {
-      // imgSrl: "../assets/img/機械暴龍獸.jpg",
+      imgUrl: new URL("../assets/img/機械暴龍獸.jpg", import.meta.url),
       newName: "",
       newType: "",
       newPrice: "",
