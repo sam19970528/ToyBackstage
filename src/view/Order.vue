@@ -24,7 +24,7 @@ import pagination from "@/components/pagination.vue";
           <td>/6WUDFPP</td>
           <td>Tom</td>
           <td>$500</td>
-          <td>LINEPAY</td>
+          <td>信用卡</td>
         </tr>
         <tr class="text-center">
           <th scope="row">2</th>
@@ -33,7 +33,7 @@ import pagination from "@/components/pagination.vue";
           <td>紙本發票</td>
           <td>SAM</td>
           <td>$1000</td>
-          <td>LINEPAY</td>
+          <td>現金</td>
         </tr>
       </tbody>
     </table>

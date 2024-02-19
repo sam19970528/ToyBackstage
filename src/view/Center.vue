@@ -55,8 +55,10 @@
           <div class="card-header text-center fw-bold">今年訂單</div>
           <div class="card-body">
             <div class="row">
-              <div class="col-lg-12 d-flex align-items-center">
-                <canvas id="barCanvas"></canvas>
+              <div
+                class="col-lg-12 d-flex align-items-center justify-content-center"
+              >
+                <img src="../assets/img/今年訂單.svg" alt="" class="w-75" />
               </div>
             </div>
           </div>
@@ -67,8 +69,10 @@
           <div class="card-header text-center fw-bold">本周訂單</div>
           <div class="card-body">
             <div class="row">
-              <div class="col-lg-12 d-flex align-items-center">
-                <canvas id="barCanvas"></canvas>
+              <div
+                class="col-lg-12 d-flex align-items-center justify-content-center"
+              >
+                <img src="../assets/img/本周訂單.svg" alt="" class="w-75" />
               </div>
             </div>
           </div>
@@ -84,8 +88,10 @@
           <div class="card-header text-center fw-bold">今年業績成長指數</div>
           <div class="card-body">
             <div class="row">
-              <div class="col-lg-12 d-flex align-items-center">
-                <canvas id="barCanvas"></canvas>
+              <div
+                class="col-lg-12 d-flex align-items-center justify-content-center"
+              >
+                <img src="../assets/img/業績成長.svg" alt="" class="w-50" />
               </div>
             </div>
           </div>
@@ -96,8 +102,10 @@
           <div class="card-header text-center fw-bold">熱門商品系列</div>
           <div class="card-body">
             <div class="row">
-              <div class="col-lg-12 d-flex align-items-center">
-                <canvas id="barCanvas"></canvas>
+              <div
+                class="col-lg-12 d-flex align-items-center justify-content-center"
+              >
+                <img src="../assets/img/熱門系列.svg" alt="" class="w-75" />
               </div>
             </div>
           </div>
